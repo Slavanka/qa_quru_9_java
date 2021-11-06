@@ -1,6 +1,6 @@
 package guru.qa;
 
-public class Number {
+public class Height {
     String name;
     int height;
 
