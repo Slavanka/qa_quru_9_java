@@ -1,11 +1,19 @@
 package guru.qa;
 
 public class Actor {
-    static String name;
-    static String city;
+    private final String name;
+    private final String city;
 
+    public Actor (String name, String city) {
+        this.name = name;
+        this.city = city;
+    }
 
-    public static void main(String[] args) {
-        System.out.println(name + "собрал тысячи фанатов на своиём концерте в " + city);
+   public void printNameToConsole() {
+        System.out.println(name);
+    }
+
+    public String getName() {
+        return name;
     }
 }
