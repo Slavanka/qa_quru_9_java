@@ -1,12 +1,11 @@
 package guru.qa;
 
 public class Actor {
-    public static void main(String[] args) {
-        String name = "Леонардо";
-        int age = 46;
-        String city = "USA";
-        String favorite = name + " " + (Integer.toString(46)) + " " + city;
-        System.out.println(favorite);
+    static String name;
+    static String city;
 
+
+    public static void main(String[] args) {
+        System.out.println(name + "собрал тысячи фанатов на своиём концерте в " + city);
     }
 }
